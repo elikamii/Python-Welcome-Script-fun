@@ -1,2 +1,10 @@
-# Python-Welcome-Script-fun
-A simple Python script to print a welcome message. This repository is for demonstration purposes, showing a basic commit and update process on GitHub.
+# A simple script to greet the user.
+
+def welcome_message(name):
+    """
+    This function generates a personalized welcome message.
+    """
+    print(f"Hello, {name}! Welcome to the GitHub repository.")
+
+if __name__ == "__main__":
+    welcome_message("user")
